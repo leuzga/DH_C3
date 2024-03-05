@@ -1,0 +1,19 @@
+.CancelOrder {
+  display: flex;
+  justify-content: center;
+}
+
+.CancelOrder button {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CancelOrder button:hover {
+  background-color: #c62828;
+}
