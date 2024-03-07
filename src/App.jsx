@@ -1,14 +1,12 @@
-import PizzaOrder from './components/PizzaOrder';
-import CancelOrder from './components/CancelOrder';
-import './App.css';
-const App = () => {
+import './components/PokeViewer.css';
+import PokeViewer from './components/PokeViewer';
+
+function App() {
   return (
-    <div className='App'>
-      <h1>Aplicación de Pedido de Pizza</h1>
-      <PizzaOrder />
-      <CancelOrder />
+    <div>
+      <PokeViewer />
     </div>
   );
-};
+}
 
 export default App;
